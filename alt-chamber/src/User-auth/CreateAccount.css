@@ -1,0 +1,42 @@
+.Altcontainer {
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
+    display: flex; /* Flexbox for centering */
+    justify-content:center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: -70px;
+  }
+
+  .Form {
+    background-color: aliceblue; /* Light background for the form */
+    padding:9px; /* Some padding around the form */
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for depth */
+    width: 400px; /* Fixed width for the form */
+    text-align: center; /* Optional: Center text inside the form */
+  }
+  
+
+  /* .AltBackground: Full height of the viewport with a background image */
+.forgotPasswordBackgroun {
+  background-image: url('/ALTbackground.jpg'); /* Path should start with a slash for the public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /* margin-top: -70px; */
+}
+
+/* .Form: The form box itself */
+.forgotForm {
+  background-color: aliceblue; /* Light background for the form */
+  padding:9px; /* Some padding around the form */
+  border-radius: 8px; /* Rounded corners for the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for depth */
+  width: 300px; /* Fixed width for the form */
+  text-align: center; /* Optional: Center text inside the form */
+}
