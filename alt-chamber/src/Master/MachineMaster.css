@@ -1,0 +1,57 @@
+.MachineMaster {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+    width: 89%; /* Use full width for the container */
+    background-color: white;
+    padding: 10px 20px; /* Adds padding to the left and right sides */
+    justify-content: flex-start; /* Distribute space evenly between items */
+     align-items: center; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Equal shadow on all sides */
+    border-radius: 7px;
+    margin-left: auto; /* Centers the box horizontally */
+    margin-right: auto; /* Centers the box horizontally */
+}
+
+.filedButton {
+    display: flex;
+    gap: 35px;
+    justify-content: flex-end; /* Align the buttons to the right */
+    font-family: "Roboto", sans-serif;
+    padding: 19px;
+    width: 100%; /* Ensure that filedButton takes full width of parent */
+}
+
+.Taskbutton {
+    background-color: #ee4dd8;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 6px 4px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Taskbutton:hover {
+    background: linear-gradient(90deg, #45a049 0%, #34c731 100%);
+    transform: translateY(-4px);
+}
+
+.Taskbutton.delete {
+    background: linear-gradient(90deg, #f44336 0%, #d32f2f 100%);
+}
+
+.Taskbutton.delete:hover {
+    background: linear-gradient(90deg, #e53935 0%, #d32f2f 100%);
+    transform: translateY(-4px);
+}
+
+/* Disabled button style */
+.Taskbutton:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
